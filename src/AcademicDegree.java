@@ -13,5 +13,4 @@ public enum AcademicDegree {
             return label;
         }
 
-
 }
