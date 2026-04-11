@@ -1,4 +1,4 @@
-import java.io.Serializable;
+import java.io.*;
 
 public class Student implements Serializable{
     private String firstname;
