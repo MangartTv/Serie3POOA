@@ -1,5 +1,6 @@
 import java.io.*;
 
+// Lit le fichier
 public class Producer extends Thread {
 
     private CommonZone zone;
