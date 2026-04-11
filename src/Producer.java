@@ -24,6 +24,7 @@ public class Producer extends Thread {
             e.printStackTrace();
         }
         System.out.println("Producteur : terminé");
+        zone.put(null); // signal de fin
     }
 
 }

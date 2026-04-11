@@ -99,5 +99,18 @@ public class Main {
             // ClassNotFoundException : problème de classe lors de la lecture
             e.printStackTrace();
         }
+
+        // =====================================================
+        // ÉTAPE 5 : THREADS
+        // =====================================================
+
+        CommonZone zone = new CommonZone();
+
+        Producer producer = new Producer(zone);
+        Consumer consumer = new Consumer(zone);
+
+        producer.start();
+        consumer.start();
+
     }
 }
