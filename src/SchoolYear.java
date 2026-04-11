@@ -1,4 +1,6 @@
-public class SchoolYear {
+import java.io.Serializable;
+
+public class SchoolYear implements Serializable {
 
     private String section;
     private int year;
